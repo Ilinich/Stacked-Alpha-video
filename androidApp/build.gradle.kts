@@ -11,7 +11,7 @@ kotlin {
     }
 }
 dependencies {
-    implementation(project(":shared"))
+    implementation(project(":sample"))
 
     implementation(libs.androidx.activity.compose)
 
@@ -20,11 +20,11 @@ dependencies {
 }
 
 android {
-    namespace = "como.begoml.stackedalphavideo"
+    namespace = "io.github.ilinich.stackedalphavideo.sample"
     compileSdk = libs.versions.android.compileSdk.get().toInt()
 
     defaultConfig {
-        applicationId = "como.begoml.stackedalphavideo"
+        applicationId = "io.github.ilinich.stackedalphavideo.sample"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
