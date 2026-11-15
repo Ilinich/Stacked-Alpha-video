@@ -1,0 +1,45 @@
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+node_modules/
+
+# IDEs
+.fleet
+.vscode
+
+# Xcode
+DerivedData/
+*.xcarchive
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Signing and secrets
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+.env
+.env.*
+
+# Logs and dumps
+*.log
+*.hprof
+
+# Claude Code local settings
+.claude/settings.local.json
